@@ -1,0 +1,46 @@
+*{box-sizing: border-box}
+
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+.slider{
+    width: 500px ;
+    margin: 0 auto;
+}
+
+.slider-text{
+    width: 400px;
+    /* height: 100px; */
+    margin: 0 auto;
+    border: solid 1px purple;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.item_1{
+    background-color: red;
+}
+
+.item_2{
+    background-color: orange;
+}
+
+.item_3{
+    background-color: yellow;
+}
+
+.item_4{
+    background-color: green;
+}
+
+.item_5{
+    background-color: rgb(124, 124, 255);
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}

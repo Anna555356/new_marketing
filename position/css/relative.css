@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0;
+    padding: 20px;
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    margin: 200px  auto;
+    width: 400px;
+    height: 300px;
+    border: 2px double greenyellow;
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 0, 191);
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+
+.photo{
+    text-align: center;
+    padding-top: 95px;
+}
+
+.image-photos{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.photo-1{
+    left: -200px;
+    bottom: 300px;
+}
+
+.photo-2{
+    left: 0;
+    bottom: -200px;
+}
+
+.photo-3{
+    right: 400px;
+    top: 300px;
+}
+
+.photo-4{
+    left: 0;
+    bottom: 300px;
+}
+
+.photo-5{
+    left: 400px;
+    top: 300px;
+}
+
+.photo-6{
+    right: 0;
+    top: 300px;
+}
+
+.photo-7{
+    left: 390px;
+    bottom: 300px;
+}
+
+.photo-8{
+    right: 10px;
+    bottom: 300px;
+}
+
+.photo-9{
+    right: -200px;
+    top: 0;
+}
+
+.photo-10{
+    left: -200px;
+    top: 0;
+}
+
+.photo-11{
+    left: -200px;
+    bottom: 0;
+}
+
+.photo-12{
+    right: -200px;
+    bottom: 0;
+}
+

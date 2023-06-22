@@ -1,0 +1,129 @@
+*{
+   box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+
+html{
+    background-image: url('../images/изображение_viber_2022-12-29_19-01-09-196.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+h1{
+    color: red;
+    text-transform: uppercase; /* текст вел.букви */
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    color: red;
+    font-size: 25px;
+    line-height: 31px;
+    font-family: sans-serif;
+    font-family: 'Shadows Into Light', cursive,sans-serif;
+    text-align: center;
+}
+
+.lorem{
+    color: white;
+}
+
+.lorem-text{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive,sans-serif;
+}
+
+h2{
+    color: rgb(114, 222, 114);
+}
+
+
+
+h2{
+    color: blue;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.greeting{
+    color: darkmagenta;
+    font-size: 50px;
+}
+
+
+h2.greeting{
+    color: aqua;
+    font-size: 25px;
+}
+
+
+body h2.greeting{
+    color: darkviolet;
+    font-size: 75px;
+}
+
+h3,
+h4,
+h5,
+a{
+    color: darkturquoise;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+div p{
+    color: blueviolet;
+    text-transform: uppercase;
+
+}
+
+div p span{
+    font-size: 50px;
+    background-color: aquamarine;
+}
+
+
+.text-p{
+    font-size: 100px;
+    background-color: rgb(229, 158, 126);
+}
+
+ul{
+    font-size: 30px;
+}
+
+ul li+li{
+    color: rgb(255, 55, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

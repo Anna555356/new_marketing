@@ -1,0 +1,43 @@
+ *{ 
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text_1{
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    border: 20px solid black;
+    overflow: auto;
+    /* overflow: hidden; */
+}
+
+.text_1:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: 20px solid orange;
+}
+
+.title_1{
+    margin: 500px 500px;
+}
+
+
+.title_1:hover{
+    text-transform: uppercase;
+    color: blue;
+    cursor: pointer;
+}
+
+.title_1::before{
+    content: "Girl?";
+}
+
+.title_1::after{
+    content: "How are you?";
+}
